@@ -9,6 +9,10 @@
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m7rlin/DiscordBot.git"
+  },
   "keywords": [
     "discord",
     "discord-bot",
@@ -16,6 +20,9 @@
   ],
   "author": "Marcin Stawowczyk m7rlin",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m7rlin/DiscordBot/issues"
+  },
   "homepage": "https://github.com/m7rlin/DiscordBot#readme",
   "dependencies": {
     "ascii-table": "0.0.9",

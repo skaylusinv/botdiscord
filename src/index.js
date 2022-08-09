@@ -16,6 +16,8 @@ const log = console.log
 commandHandler(client)
 // Initialize Settings Handler
 settingsHandler(client)
+// Initialize API Handler
+apiHandler(client)
 // Initialize Event Handler
 eventHandler(client)
 
@@ -65,7 +67,7 @@ client.on("ready", () => {
 })
 
 // Connect with Discord
-// client.login(TOKEN)
+client.login(TOKEN)
 
 // Error handler - omit crashed
 client.on("debug", () => {})
